@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    /* 3 equal columns */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .service-name {
+    text-align: center;
+  }
+
+  .service-item-main {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    font-weight: 600;
+  }
+
+  .service-item-description {
+    font-weight: 300;
+  }
